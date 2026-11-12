@@ -815,3 +815,74 @@ a:hover {
     grid-column: 1 / -1;
   }
 }
+
+
+/* ===== Favicon Replacement Styles for Emojis ===== */
+.inline-favicon,
+.nav-fav-icon,
+.hero-fav-icon,
+.badge-fav-icon,
+.note-fav-icon,
+.btn-fav-icon,
+.dt-fav-icon,
+.footer-fav-icon {
+  display: inline-block;
+  vertical-align: middle;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.inline-favicon {
+  width: 14px;
+  height: 14px;
+  margin-right: 4px;
+}
+
+.nav-fav-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 7px;
+  opacity: 0.85;
+}
+
+.hero-fav-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+}
+
+.badge-fav-icon {
+  width: 15px;
+  height: 15px;
+  margin-right: 6px;
+  vertical-align: -2px;
+}
+
+.note-fav-icon {
+  width: 14px;
+  height: 14px;
+  margin-right: 4px;
+  vertical-align: -1px;
+}
+
+.btn-fav-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+  vertical-align: -2px;
+}
+
+.dt-fav-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+  vertical-align: -2px;
+}
+
+.footer-fav-icon {
+  width: 18px;
+  height: 18px;
+  margin: 0 6px;
+  opacity: 0.65;
+  filter: grayscale(40%);
+}
