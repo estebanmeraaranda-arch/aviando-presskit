@@ -710,3 +710,108 @@ a:hover {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--sage-main);
 }
+
+
+/* ===== Updates Nov 2026: logo del juego, concept art y avances ===== */
+.hero-crest-backdrop {
+  background: radial-gradient(circle at center, #fffdf9 0%, #f4ecdc 100%);
+}
+
+.hero-game-logo {
+  display: block;
+  width: 100%;
+  max-width: 380px;
+  height: auto;
+  border-radius: 12px;
+  mix-blend-mode: multiply;
+}
+
+.logo-display-wrapper + .logo-display-wrapper {
+  margin-top: 16px;
+}
+
+.game-logo-container {
+  width: 200px;
+  background: #fff;
+  border: 4px solid var(--border-ornate);
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(92, 77, 104, 0.15);
+  padding: 8px;
+}
+
+.game-logo-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.concept-feature {
+  clear: both;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+@media (min-width: 860px) {
+  .concept-feature {
+    grid-template-columns: 3fr 2fr;
+    align-items: start;
+  }
+}
+
+.concept-card img,
+.update-card img {
+  height: auto;
+  max-height: 520px;
+  object-fit: contain;
+  background: #fff;
+}
+
+.update-card img {
+  background: #1e1e1e;
+}
+
+.concept-notes {
+  list-style: none;
+  margin: 0;
+  padding: 18px 20px;
+  background: var(--bg-parchment);
+  border: 1px dashed var(--border-ornate);
+  border-radius: var(--radius-cottage);
+  font-size: 1.4rem;
+  color: var(--text-secondary);
+}
+
+.concept-notes li {
+  padding: 8px 0;
+  border-bottom: 1px dashed var(--border-delicate);
+}
+
+.concept-notes li:last-child {
+  border-bottom: none;
+}
+
+.concept-notes strong {
+  display: block;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--earth-clay);
+}
+
+.updates-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+}
+
+@media (min-width: 760px) {
+  .updates-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .update-feature {
+    grid-column: 1 / -1;
+  }
+}
