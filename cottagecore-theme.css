@@ -886,3 +886,95 @@ a:hover {
   opacity: 0.65;
   filter: grayscale(40%);
 }
+
+
+/* ===== Estilos para Iconos Contextuales Vectoriales ===== */
+.c-icon {
+  display: inline-block;
+  vertical-align: middle;
+  object-fit: contain;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.stamp-icon {
+  width: 13px;
+  height: 13px;
+  margin-right: 4px;
+}
+
+.title-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+  vertical-align: -3px;
+}
+
+.section-title-icon {
+  width: 22px;
+  height: 22px;
+  margin-right: 8px;
+  vertical-align: -4px;
+  opacity: 0.9;
+}
+
+.nav-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  vertical-align: -2px;
+  opacity: 0.8;
+}
+
+.nav__item:hover .nav-icon {
+  opacity: 1;
+  transform: scale(1.15);
+}
+
+.hero-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+  vertical-align: -3px;
+}
+
+.badge-icon {
+  width: 15px;
+  height: 15px;
+  margin-right: 6px;
+  vertical-align: -2px;
+}
+
+.list-icon {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  vertical-align: -2px;
+}
+
+.caption-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  vertical-align: -2px;
+}
+
+.btn-icon {
+  width: 15px;
+  height: 15px;
+  margin-right: 6px;
+  vertical-align: -2px;
+}
+
+.dt-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+  vertical-align: -2px;
+}
+
+.footer-leaf-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 8px;
+  opacity: 0.55;
+}
