@@ -5,5 +5,8 @@
   "description": "Presskit oficial de Aviando - Faestila Studio",
   "scripts": {
     "build": "node generate-custom.js"
+  },
+  "dependencies": {
+    "pptxgenjs": "^4.0.1"
   }
 }
